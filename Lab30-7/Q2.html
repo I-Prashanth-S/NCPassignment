@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Question</title>
+    <link rel="stylesheet" href="Q2.css">
+    <style>
+        p.openQuote::before
+        {
+            content: url("images/quoteOpen.gif");
+            font-style: italic;
+        }
+
+        p.closeQuote::after
+        {
+            content: url("images/quoteClose.gif");
+            vertical-align: top;
+        }
+        #menu li 
+        {
+            display: inline;		
+        }
+        #menu a 
+        {
+            float: left;
+            width: 12.16%;
+            width: 13.5%;
+            padding:15px 0px;  
+            margin-top: 0.5em;
+            margin-left:auto;
+            margin-right:auto;
+            margin-bottom: 1em;
+            border:thin white solid;
+            text-decoration: none;
+            overflow: hidden;
+            text-align: center;
+            font-size: 98%;  
+            color: black;  
+            background-color: #E07B1D;
+            background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #FFFFFF), color-stop(1, #D97800));
+            background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #D97800 100%);
+        }
+        #menu 
+        {
+            clear:both;
+            width: 100%;
+            margin: 0.625em auto 0px auto;
+            border-right: 1px solid #EDEBD5;
+        }
+
+
+
+
+        #menu a:hover 
+        {
+            background-color: #17ce21;
+            color: #FFFFFF;
+            background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #5919ad));
+            background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #15b88f 100%);
+        }
+
+    </style>
+</head>
+<body>
+    <nav id="menu">
+        <ul>
+           <li><a href="">Home</a></li>
+           <li><a href="">Details</a></li>
+           <li><a href="">Rates</a></li>
+           <li><a href="">Availability</a></li>
+           <li><a href="">Booking</a></li>
+           <li><a href="">Brochure</a></li>
+           <li><a href="">Kauai</a></li>
+        </ul>
+    </nav>
+        <header class="head">
+            <img style="flex: 50%; padding: 20px;" src="images/headerLeft.jpg" alt="left">
+            <img style="flex: 50%; padding: 20px;" src="images/headerRight.jpg" alt="right">
+        </header>
+    <section class="Row">
+        <section class="Column1">
+            <h2>
+                Welcome to <span style="font-style: italic;">The Cliffs at Princeville 7301!</span> 
+            </h2>
+
+            <section class="withImage">
+                <img style="flex: 20%;" src="images/mainImage.jpg" alt="mainImage" width="50px" height="150px">
+                <section class="ToRight">
+                    <article class="FirstArticle">
+                        <span style="font-weight: bold; color: aquamarine;">The Cliffs at Princeville  7301</span>in Princeville, Kauai is the best vacation rental condo bargain available!
+                    </article>
+                    <section>
+                        <h3>
+                            Details
+                        </h3>
+                        <p>
+                            The Cliffs at Princeville 7301 is a spacious <span style="font-weight: bold">2-bedroom Kauai condo</span> that encompasses over<span style="font-weight: bold"> 1500 square feet</span> of opulence, 
+                            all dedicated to your comfort when you are not out exploring the splendors of<span style="font-weight: bold"> Kauai's North Shore</span>, the most luxuriant 
+                            part of one the most beautiful islands of Hawaii.
+                        </p>
+                    </section>
+                </section>
+            </section>
+
+            <section>
+                <p>
+                    A virtual home away from home, this condo in Kauai's Princeville resort and golf community features the following:
+                </p>
+                <ul>
+                    <li>a large, breezy living room overlooking the Pacific Ocean</li>
+                    <li>a complete kitchen</li>
+                    <li>two bedrooms</li>
+                    <li>two full baths</li>
+                    <li>two private lanais to enjoy the tranquility of the island</li>
+                </ul>
+                <p>
+                    This unit is large enough to accommodate up to <span style="font-weight: bold">five adults</span>.
+                </p>
+                <p>
+                    Continuously <span style="font-weight: bold">remodeled and upgraded</span>, this unit, one of the best in the <span style="font-weight: bold">Five-star Cliffs at Princeville, Kauai condo resort</span>, has never been nicer! 
+                </p>
+
+                <h2>
+                    Features
+                </h2>
+                <p>
+                    This Kauai vacation rental offers additional features:
+                </p>
+                <ul>
+                    <li>reasonable rates for exceptional accommodations</li>
+                    <li>an excellent ocean view</li>
+                    <li>wonderful resort facilities</li>
+                    <li>whale watching from the living room lanai from November to March</li>
+                    <li>excellent snorkeling sites located just a short drive away</li>
+                    <li>an Ethernet connection for hi-speed Internet (free to our renters)</li>
+                </ul>
+                <section id="quotations">
+                    <br><hr><br>		
+                    <p style="font-style: italic;" class="openQuote  closeQuote">This unit is just wonderful sunrise, and spaciousness!</p>
+                    <p style="font-style: italic;" class="openQuote  closeQuote">Everything here is very comfortable and clean. Views are outstanding and the breeze is wonderful! We will definitely come back!</p>
+                    <hr>
+                </section>
+
+
+            </section>
+
+        </section>
+        <section class="Column2">
+            <section id="right">
+                <section id="side">
+                   <h2>Photos</h2>
+                   <ul>
+                      <li><a href="">Condo Interior</a></li>
+                      <li><a href="">Condo Access</a></li>
+                      <li><a href="">The Cliffs</a></li>
+                      <li><a href="">Kauai Scenery</a></li>
+                      <li><a href="">Kauai Beaches</a></li>
+                   </ul>
+                   <h2>The Cliffs</h2>
+                   <ul>
+                      <li><a href="">Resort Details</a></li>
+                      <li><a href="">Golf Courses</a></li>
+                      <li><a href="">Activities</a></li>
+                      <li><a href="">Location</a></li>
+                      <li><a href="">Directions</a></li>
+                   </ul>
+                   <h2>Reviews</h2>
+                   <ul>
+                      <li><a href="">Guest Comments</a></li>
+                      <li><a href="">Review us</a></li>
+                   </ul>	
+                </section> 
+            </section>
+        </section>
+    </section>
+    <footer style="margin-top:0px;clear: both;height: 1.9em;width:96%;margin-bottom:1em;">
+        <p style="margin: 0px;text-align: center;font-size: 77%;">
+            <a style="color: rgb(235, 181, 112);" href="">FAQs</a> | 
+            <a style="color: rgb(235, 181, 112);" href="">Privacy Policy</a> | 
+            <a style="color: rgb(235, 181, 112);" href="">About Us</a> | 
+            <a style="color: rgb(235, 181, 112);" href="">Contact Us</a>
+         </p>
+    </footer>
+</body>
+</html>

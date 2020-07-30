@@ -1,0 +1,115 @@
+
+header{
+    display: block;
+    padding: 10px;
+    background-color: greenyellow;
+}
+
+.withImage{
+    display:flex
+}
+.ToRight{
+    flex: 80%;
+}
+
+.Row
+{
+    display: flex;
+}
+.Column1{
+    flex: 60%;
+}
+.Column2{
+    flex:40%
+}
+#right
+{
+	float: right;
+	width: 20%;
+	padding: 0.313em;
+	background: #EDEBD5;	
+}
+
+#right h2 
+{
+	margin: 0%;
+	padding: 0.313em 0.938em;
+	color: #FFFFFF;
+}
+
+#right h3 
+{
+	font-size: 85%;
+	color: #FFFFFF;
+}
+
+#right ul 
+{
+	margin: 0;
+	padding: 0.938em;
+	list-style: none;
+}
+
+#right a 
+{
+	color: #FFFFFF;
+}
+
+#right a:hover 
+{
+	color: #F49A24;
+	background-color: #FFFFFF;
+}
+
+#right .active a 
+{
+	color: #F49A24;
+	background-color: #FFFFFF;
+}
+
+#side 
+{
+	width:90%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #EE7B10;
+}
+
+#side h2 
+{
+    background-color:white;
+    color:darkorange;
+    text-shadow: black 2px 2px 2px;	
+	width:99%;
+	padding:7px 1px;
+	margin:0px;
+	border-top:medium white solid;
+	font-size:1.3em;
+}
+
+#side ul
+{
+	width:100%;
+	padding:0px;
+	margin:0px;
+}
+
+#side li
+{
+	margin:0px;
+	text-indent:8px;
+	padding:5px 0px;
+	border-top:medium #E07B1D solid;
+	width:100%;
+	font-size:.85em;
+}
+
+#side a 
+{
+	display:block;
+	margin-top:1px;
+	width:100%;
+    text-decoration:none;
+}
+
+
